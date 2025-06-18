@@ -1,0 +1,87 @@
+// SCSS variables (linked to CSS custom properties)
+$card-bg: var(--card-bg);
+$border-radius: var(--border-radius);
+$box-shadow: var(--box-shadow);
+$input-bg: var(--input-bg);
+$input-text: var(--input-text);
+$primary-color: var(--primary-color);
+$link-color: var(--link-color);
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--bg-color);
+
+  .login-box {
+    background-color: $card-bg;
+    padding: 2rem;
+    border-radius: $border-radius;
+    box-shadow: $box-shadow;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+
+    h2 {
+      margin-bottom: 1.5rem;
+      color: $input-text;
+    }
+
+    .login-input {
+      width: 100%;
+      margin: 1rem 0;
+      padding: 0.75rem;
+      background-color: $input-bg;
+      color: $input-text;
+      border: 1px solid rgba(0, 0, 0, 0.2);
+      border-radius: $border-radius;
+      font-size: 1rem;
+
+      &::placeholder {
+        color: #999;
+      }
+
+      &:focus {
+        outline: none;
+        border-color: $primary-color;
+        box-shadow: 0 0 0 2px rgba(52, 120, 246, 0.2);
+      }
+    }
+
+    .login-button {
+      width: 100%;
+      padding: 0.75rem;
+      background-color: $primary-color;
+      color: white;
+      border: none;
+      border-radius: $border-radius;
+      font-size: 1rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+
+      &:hover {
+        background-color: #2c63d6;
+      }
+
+      &:focus {
+        outline: none;
+        box-shadow: 0 0 0 2px rgba(44, 99, 214, 0.3);
+      }
+    }
+
+    .forgot-password {
+      margin-top: 1rem;
+      color: $link-color;
+      cursor: pointer;
+      font-size: 0.9rem;
+      text-decoration: underline;
+
+      &:hover {
+        color: darken(#3b82f6, 10%);
+      }
+    }
+  }
+}

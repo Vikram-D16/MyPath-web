@@ -1,0 +1,71 @@
+/* :root {
+  --bg-color: #f9fafc;
+  --card-bg: #ffffff;
+  --primary-color: #3478f6;
+  --text-color: #1f2937;
+  --input-bg: #f0f2f5;
+  --input-text: #111827;
+  --link-color: #64748b;
+  --border-radius: 6px;
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  --font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background-color: var(--card-bg);
+  padding: 2rem;
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+  text-align: center;
+  width: 100%;
+  max-width: 400px;
+}
+
+.login-input {
+  width: 100%;
+  margin: 1rem 0;
+  padding: 0.75rem;
+  background-color: var(--input-bg);
+  color: var(--input-text);
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+}
+
+.login-button {
+  width: 100%;
+  padding: 0.75rem;
+  background-color: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: var(--border-radius);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.login-button:hover {
+  background-color: #3e8e41;
+}
+
+.forgot-password {
+  margin-top: 1rem;
+  color: var(--link-color);
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-decoration: underline;
+} */

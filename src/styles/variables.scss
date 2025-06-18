@@ -1,0 +1,24 @@
+$bg-color: #f9fafc;
+$card-bg: #ffffff;
+$primary-color: #3478f6;
+$text-color: #1f2937;
+$input-bg: #f0f2f5;
+$input-text: #111827;
+$link-color: #3b82f6;
+$border-radius: 6px;
+$box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+$font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+:root {
+    --bg-color: #{$bg-color};
+    --card-bg: #{$card-bg};
+    --primary-color: #{$primary-color};
+    --text-color: #{$text-color};
+    --input-bg: #{$input-bg};
+    --input-text: #{$input-text};
+    --link-color: #{$link-color};
+    --border-radius: #{$border-radius};
+    --box-shadow: #{$box-shadow};
+    --font-family: #{$font-family};
+}
